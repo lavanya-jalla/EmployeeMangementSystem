@@ -4,21 +4,21 @@ This project demonstrates CRUD operations using Spring Boot, Spring Data JPA, an
 
 ## Tech Stack
 Java 17
+
 Spring Boot 3
+
 Spring Data JPA
+
 Hibernate
+
 MySQL 8
+
 Maven
+
 Lombok
 
 ## Architecture Used
-Controller Layer
-        ↓
-Service Layer
-        ↓
-DAO Layer
-        ↓
-Database (MySQL)
+Controller Layer -> Service Layer -> DAO Layer -> Database (MySQL)
 
 ## Project Structure
 RestApiCrudEMS
@@ -39,12 +39,19 @@ RestApiCrudEMS
 
 ## Features
 Add Employee
+
 View All Employees
+
 View Employee by ID
+
 Update Employee Details
+
 Delete Employee
+
 DAO Pattern Implementation
+
 MySQL Database Integration
+
 RESTful API Design
 
 ## Database Setup
